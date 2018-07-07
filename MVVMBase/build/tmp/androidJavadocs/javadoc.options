@@ -1,0 +1,11 @@
+-classpath '/Users/admin/Library/Android/sdk/platforms/android-27/android.jar'
+-d '/Users/admin/Documents/gitlab/MVVMApp/MVVMBase/build/docs/javadoc'
+-doctitle 'MVVMBase API'
+-quiet 
+-windowtitle 'MVVMBase API'
+'/Users/admin/Documents/gitlab/MVVMApp/MVVMBase/src/main/java/app/mhdthasneemp/mvvmbase/base/BaseViewModel.java'
+'/Users/admin/Documents/gitlab/MVVMApp/MVVMBase/src/main/java/app/mhdthasneemp/mvvmbase/base/BaseFragment.java'
+'/Users/admin/Documents/gitlab/MVVMApp/MVVMBase/src/main/java/app/mhdthasneemp/mvvmbase/base/BaseViewHolder.java'
+'/Users/admin/Documents/gitlab/MVVMApp/MVVMBase/src/main/java/app/mhdthasneemp/mvvmbase/base/Container.java'
+'/Users/admin/Documents/gitlab/MVVMApp/MVVMBase/src/main/java/app/mhdthasneemp/mvvmbase/base/BaseActivity.java'
+'/Users/admin/Documents/gitlab/MVVMApp/MVVMBase/src/main/java/app/mhdthasneemp/mvvmbase/base/BaseDialog.java'
