@@ -5,6 +5,8 @@
 /.idea/modules.xml
 /.idea/workspace.xml
 .DS_Store
-/build
 /captures
 .externalNativeBuild
+MVVMBase/libs/
+MVVMBase/src/main/res/drawable/
+app/libs/
