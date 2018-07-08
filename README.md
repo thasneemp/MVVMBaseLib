@@ -49,7 +49,7 @@ https://github.com/MindorksOpenSource/android-mvvm-architecture
 #### License
 
 ````
-Copyright [2018] [Muhammed Thasneem P]
+Copyright 2018 Muhammed Thasneem P
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
