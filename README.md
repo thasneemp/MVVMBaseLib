@@ -23,5 +23,5 @@ dependencies {
 }
 ```
 
-Refrence
+Reference
 https://github.com/MindorksOpenSource/android-mvvm-architecture
