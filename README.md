@@ -1,8 +1,26 @@
 [ ![Download](https://api.bintray.com/packages/muhammedthasneem1993/MVVMBase/MVVMBase/images/download.svg) ](https://bintray.com/muhammedthasneem1993/MVVMBase/MVVMBase/_latestVersion)
 
 # MVVM Base Library 
-Base class for mvvm architecture 
+The MVVM design pattern is similar to the well known MVC pattern in that the M (Model) and V (View) are relatively the same. The only difference resides between the C (Controller) and the VM (View Model).
 
+This library is providing some base functionality of MVVM architecture and DataBinding.
+
+* **Model**
+
+    Represents the Data + State + Business logic. It is not tied to the view nor to the controller, which makes it reusable in many contexts.
+    
+* **View**
+
+    Binds to observable variables and actions exposed by the View Model. It is possible for multiple views to bind to a single View Model.
+
+* **ViewModel**
+
+   Responsible for wrapping the model and preparing observable data needed by the view. It also provides hooks for the view to pass events to the model. An important thing to keep in mind is that the View Model is not tied to the view.
+   
+* **Data Binding**
+
+   Introduced in Google I/O 2015, the Data Binding library helps write declarative layouts and minimize the glue code necessary to bind application logic and layouts.
+   
 ## Dependency
 
 Firstly, add repository in your root build.gradle file (not your module build.gradle file):
