@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/admin/Documents/gitlab/MVVMApp/MVVMBase/src/main/assets"/><source path="/Users/admin/Documents/gitlab/MVVMApp/MVVMBase/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/admin/Documents/gitlab/MVVMApp/MVVMBase/src/debug/assets"/></dataSet></merger>

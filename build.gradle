@@ -5,9 +5,6 @@ buildscript {
     repositories {
         google()
         jcenter()
-        maven {
-            url  "https://dl.bintray.com/muhammedthasneem1993/MVVMBase"
-        }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.1.3'

@@ -12,7 +12,7 @@ public class MainActivity extends BaseActivity<ActivityMainBinding, MyModel> imp
 
     @Override
     public int getBindingVariable() {
-        return BR.viewModel;
+        return app.mmvtest.com.mvvmapp.BR.viewModel;
     }
 
     @Override
