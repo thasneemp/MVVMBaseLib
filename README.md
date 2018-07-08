@@ -19,7 +19,7 @@ Add dependency to your module's build.gradle file:
 
 ```
 dependencies {
-    implementation 'com.mhdthasneemp.mvvmbase:MVVM-BASE:1.0'
+    implementation 'com.mhdthasneemp.mvvmbase:MVVM-BASE:{new_version}'
 }
 ```
 
