@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <data>
 
@@ -8,8 +9,7 @@
             type="app.mmvtest.com.mvvmapp.MyModel" />
     </data>
 
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity">
@@ -24,7 +24,17 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:onClick="@{() -> viewModel.showToast()}"
-            android:text="Show Toast" />
+            android:text="@string/show_toast" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="165dp"
+            android:ems="10"
+            android:text="@={viewModel.textValue}" />
 
     </RelativeLayout>
 </layout>
